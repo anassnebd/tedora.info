@@ -15,13 +15,12 @@ function Header() {
           <li><a className="opt_header">Services</a></li>
           <li><a className="opt_header">Portfolio</a></li>
           <li><a className="opt_header">About</a></li>
-          <div>
-            <button>Hire me</button>
-          </div>
+          <li className="opt_header">
+            <div>
+              <button>Hire me</button>
+            </div>
+          </li>
         </ul>
-        
-        <a href="opt_header">Home</a> 
-        <a href="opt_header">Home</a> 
       </div>
     </div>
   )
