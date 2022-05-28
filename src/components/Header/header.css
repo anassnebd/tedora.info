@@ -1,5 +1,19 @@
 .header_page{
     background-color: red;
-    margin: 50px 50px 0 150px;
+    margin: 50px 150px 0 150px;
+    height: 200px;
+    width: auto;
+}
+.options{
+    float: right;
+    background-color: aliceblue;
+    justify-content: space-around;
     display: flex;
+    list-style: none;
+}
+.logo{
+    float: left;
+}
+.opt_header{
+   padding-left: 20px;
 }
