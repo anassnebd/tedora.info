@@ -2,25 +2,25 @@ import React from 'react'
 import './header.css'
 import Logo from '../../assets/images/tedora.png'
 import HireMe from '../../assets/icons/user_pin.png'
+import { FaUserCheck } from 'react-icons/fa';
+
 
 
 function Header() {
   return (
     <div className='header_page'>
       <div className='logo'>
-        <img src={Logo} href='/' alt='Logo' width='200px'/>
+        <img src={Logo} href='/' alt='Logo' width='270px'/>
+      </div>
+      <div className='hire_me'>
+        <button className='hire_btn'><FaUserCheck width="100px" style={{color:'white'}}/>&nbsp; Hire me</button>
       </div>
       <div >
         <ul className='options'>
           <li><a className="opt_header">Design</a></li>
           <li><a className="opt_header">Services</a></li>
           <li><a className="opt_header">Portfolio</a></li>
-          <li><a className="opt_header">About</a></li>
-          <li className="opt_header">
-            <div>
-              <button className='hire_me'><img src={HireMe}/>Hire me</button>
-            </div>
-          </li>
+          <li><a className="opt_header">About</a></li>  
         </ul>
       </div>
     </div>

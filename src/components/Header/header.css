@@ -5,9 +5,8 @@
 
 .header_page{
     font-family: 'Circular Std';
-    background-color: red;
     margin: 50px 150px 0 150px;
-    height: 200px;
+    height: 100px;
     width: auto;
 }
 .options{
@@ -17,6 +16,8 @@
     list-style: none;
     margin-top: 10px;
     color: white;
+    top: 50%;
+
 }
 .logo{
     float: left;
@@ -25,8 +26,23 @@
    padding-left: 40px;
 }
 .hire_me{
+    float: right;
+    margin-left: 20px;
+}
+.hire_btn{
+    display: flex;
+    font-family: 'Circular Std';
     color: white;
     background-color: transparent;
     border: 1px white solid;
     border-radius: 5px;
+    height: 35px;
+    padding: 10px 15px; 
+    cursor: pointer;
+
+}
+.hire_btn:hover{
+    background-color: #3E82E5;
+    color: white;
+    border: 1px #3E82E5 solid;
 }
