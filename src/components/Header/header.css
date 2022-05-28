@@ -24,3 +24,9 @@
 .opt_header{
    padding-left: 40px;
 }
+.hire_me{
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+}

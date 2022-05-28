@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import Logo from '../../assets/images/tedora.png'
+import HireMe from '../../assets/icons/user_pin.png'
 
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
           <li><a className="opt_header">About</a></li>
           <li className="opt_header">
             <div>
-              <button>Hire me</button>
+              <button className='hire_me'><img src={HireMe}/>Hire me</button>
             </div>
           </li>
         </ul>
