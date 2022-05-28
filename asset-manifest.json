@@ -1,7 +1,7 @@
 {
-  "main.css": "/tedora.info/static/css/main.20fc7b61.chunk.css",
-  "main.js": "/tedora.info/static/js/main.90676056.chunk.js",
-  "main.js.map": "/tedora.info/static/js/main.90676056.chunk.js.map",
+  "main.css": "/tedora.info/static/css/main.52a9705d.chunk.css",
+  "main.js": "/tedora.info/static/js/main.5fb1d84d.chunk.js",
+  "main.js.map": "/tedora.info/static/js/main.5fb1d84d.chunk.js.map",
   "static/js/1.39b8c401.chunk.js": "/tedora.info/static/js/1.39b8c401.chunk.js",
   "static/js/1.39b8c401.chunk.js.map": "/tedora.info/static/js/1.39b8c401.chunk.js.map",
   "runtime~main.js": "/tedora.info/static/js/runtime~main.5cf6c892.js",
@@ -9,8 +9,8 @@
   "static/media/tedora.png": "/tedora.info/static/media/tedora.7e458397.png",
   "static/media/title_home.png": "/tedora.info/static/media/title_home.4f0dc0cb.png",
   "static/media/app.css": "/tedora.info/static/media/CIRCULARSTD-MEDIUM.4fcdd97f.OTF",
-  "static/css/main.20fc7b61.chunk.css.map": "/tedora.info/static/css/main.20fc7b61.chunk.css.map",
+  "static/css/main.52a9705d.chunk.css.map": "/tedora.info/static/css/main.52a9705d.chunk.css.map",
   "index.html": "/tedora.info/index.html",
-  "precache-manifest.d9389ccd486ef9f61c00d9bde0fad8ad.js": "/tedora.info/precache-manifest.d9389ccd486ef9f61c00d9bde0fad8ad.js",
+  "precache-manifest.2a0338e28f003b0e3c3da212209fe181.js": "/tedora.info/precache-manifest.2a0338e28f003b0e3c3da212209fe181.js",
   "service-worker.js": "/tedora.info/service-worker.js"
 }

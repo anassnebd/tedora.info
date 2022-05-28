@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tedora.info/precache-manifest.d9389ccd486ef9f61c00d9bde0fad8ad.js"
+  "/tedora.info/precache-manifest.2a0338e28f003b0e3c3da212209fe181.js"
 );
 
 workbox.clientsClaim();
