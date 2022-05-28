@@ -3,6 +3,7 @@
     src: url(../res/CIRCULARSTD-MEDIUM.OTF);
 }
 
+/*          --TITLE---          */
 .Title{
     padding: 70px 190px;
     font-family: 'Circular Std';
@@ -24,4 +25,10 @@
 }
 .t_btn_contact:hover{
     box-shadow: 2px 2px 70px #3E82E5;
+}
+
+/*      ---Carousel---      */
+
+.Carousel{
+    display: flex;
 }
