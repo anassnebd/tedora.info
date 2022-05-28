@@ -1,15 +1,15 @@
 {
-  "main.css": "/tedora.info/static/css/main.94d60644.chunk.css",
-  "main.js": "/tedora.info/static/js/main.de47d4c5.chunk.js",
-  "main.js.map": "/tedora.info/static/js/main.de47d4c5.chunk.js.map",
-  "static/js/1.043b1434.chunk.js": "/tedora.info/static/js/1.043b1434.chunk.js",
-  "static/js/1.043b1434.chunk.js.map": "/tedora.info/static/js/1.043b1434.chunk.js.map",
+  "main.css": "/tedora.info/static/css/main.33541b2b.chunk.css",
+  "main.js": "/tedora.info/static/js/main.0eea4887.chunk.js",
+  "main.js.map": "/tedora.info/static/js/main.0eea4887.chunk.js.map",
+  "static/js/1.abc3312a.chunk.js": "/tedora.info/static/js/1.abc3312a.chunk.js",
+  "static/js/1.abc3312a.chunk.js.map": "/tedora.info/static/js/1.abc3312a.chunk.js.map",
   "runtime~main.js": "/tedora.info/static/js/runtime~main.5cf6c892.js",
   "runtime~main.js.map": "/tedora.info/static/js/runtime~main.5cf6c892.js.map",
   "static/media/tedora.png": "/tedora.info/static/media/tedora.7e458397.png",
   "static/media/header.css": "/tedora.info/static/media/CIRCULARSTD-MEDIUM.4fcdd97f.OTF",
-  "static/css/main.94d60644.chunk.css.map": "/tedora.info/static/css/main.94d60644.chunk.css.map",
+  "static/css/main.33541b2b.chunk.css.map": "/tedora.info/static/css/main.33541b2b.chunk.css.map",
   "index.html": "/tedora.info/index.html",
-  "precache-manifest.ff32a9f1eda84cb7cbe601481900b849.js": "/tedora.info/precache-manifest.ff32a9f1eda84cb7cbe601481900b849.js",
+  "precache-manifest.b53a25511c137400e52c789c892de304.js": "/tedora.info/precache-manifest.b53a25511c137400e52c789c892de304.js",
   "service-worker.js": "/tedora.info/service-worker.js"
 }
