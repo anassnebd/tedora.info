@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url(../res/CIRCULARSTD-MEDIUM.OTF);
+}
+
+.Title{
+    padding: 70px 190px;
+    font-family: 'Circular Std';
+    height: 400px;
+}
+.t_btn_contact{
+    background-color: #3E82E5;
+    color: white;
+    width: 230px;
+    height: 70px;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    border: #3E82E5 1px solid;
+}
+.t_btn_contact:hover{
+    box-shadow: 2px 2px 70px #3E82E5;
+}

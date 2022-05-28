@@ -15,7 +15,7 @@ function Header() {
       <div className='hire_me'>
         <button className='hire_btn'><FaUserCheck width="100px" style={{color:'white'}}/>&nbsp; Hire me</button>
       </div>
-      <div >
+      <div className='testop'>
         <ul className='options'>
           <li><a className="opt_header">Design</a></li>
           <li><a className="opt_header">Services</a></li>
