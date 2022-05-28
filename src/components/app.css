@@ -19,6 +19,8 @@
     font-size: large;
     cursor: pointer;
     border: #3E82E5 1px solid;
+    box-shadow: 0;
+    transition: box-shadow 0.5s;  
 }
 .t_btn_contact:hover{
     box-shadow: 2px 2px 70px #3E82E5;
