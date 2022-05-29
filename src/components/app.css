@@ -31,6 +31,7 @@
 
 .Carousel{
     display: flex;
+    
 }
 .slide{
     width: 300px;
