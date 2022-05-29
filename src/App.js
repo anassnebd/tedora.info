@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home/>} />
-          <Route path="/*" element={<NotFound/>} />
+          <Route path="/notfound" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
     </div>
