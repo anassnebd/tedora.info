@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d7a0b762ac57b6f78099",
+    "revision": "20778d37ce41f227e04f",
     "url": "/tedora.info/static/css/main.add9d414.chunk.css"
   },
   {
-    "revision": "d7a0b762ac57b6f78099",
-    "url": "/tedora.info/static/js/main.d7a0b762.chunk.js"
+    "revision": "20778d37ce41f227e04f",
+    "url": "/tedora.info/static/js/main.20778d37.chunk.js"
   },
   {
     "revision": "3177935f67bd3118dd59",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/tedora.info/static/media/404.089e537b.png"
   },
   {
-    "revision": "1afcd274e871fef7ea42ce76e68a5f5b",
+    "revision": "fc676ae40eaf56f21555fc772783f085",
     "url": "/tedora.info/index.html"
   }
 ];
