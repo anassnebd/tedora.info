@@ -32,6 +32,7 @@
 .Carousel{
     display: flex;
     margin: 0 auto;
+    height: 320px;
 }
 .slide{
     width: 350px;
@@ -53,4 +54,28 @@
 .mere{
     width: 350px;
     height: 350px;
+}
+
+/*          --VALUES---          */
+.Values{
+    font-family: 'Circular Std';
+    color: white;
+    margin-top: 210px;
+    position: static;
+}
+.value{
+    display: flex;
+}
+.value_title{
+    font-size: 37px;
+    font-weight:  100px;
+    color: #3E82E5;
+    margin-left: 35px;
+}
+.v_left{
+    padding-top: 70px;
+    width: 400px;
+}
+.v_left p {
+    font-weight: lighter;
 }
