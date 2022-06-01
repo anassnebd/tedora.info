@@ -4,14 +4,14 @@ import './app.css'
 function Carousel() {
   return (
     <div className='Carousel'>
-        <div className='slide mere'>
-            ss
+        <div className='slide'>
+
         </div>
         <div className='slide'>
-            ss
+            
         </div>
         <div className='slide'>
-            ss4
+            
         </div>
     </div>
   )

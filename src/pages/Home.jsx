@@ -5,11 +5,10 @@ import Title from '../components/Title'
 
 function Home() {
   return (
-    <div>
+    <div className='Home'>
         <Header/>
         <Title/>
         <Carousel/>
-        <Header/>
     </div>
     
   )
