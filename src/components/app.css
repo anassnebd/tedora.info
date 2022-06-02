@@ -175,7 +175,8 @@
     width: 75%;
     display: flex;
     margin: 0 auto;
-    padding-top: 110px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .val_dot{
     float: right;
@@ -218,6 +219,13 @@
 .v_right_web{
     flex:4
 }
+.v_left_desk{
+  flex: 4;
+  margin-right: 30px;
+}
+.v_right_desk{
+  flex: 3;
+}
 /*More Mobile*/
 .val_plus{
     font-family: 'Circular Std';
@@ -251,6 +259,23 @@
 .val_plus_web:hover{
     background-color: white;
     color: black;
+}
+/*More Dektop*/
+.val_plus_desk{
+  font-family: 'Circular Std';
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 150px;
+  height: 55px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.val_plus_desk:hover{
+  background-color: white;
+  color: black;
 }
 .hover-underline-animation {
     display: inline-block;
