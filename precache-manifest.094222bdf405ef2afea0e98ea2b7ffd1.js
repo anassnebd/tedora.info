@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "06e7896f288e6c4e91ea",
-    "url": "/tedora.info/static/css/main.33fc4749.chunk.css"
+    "revision": "f9cca95a0e10a1fc258f",
+    "url": "/tedora.info/static/css/main.6f2961f4.chunk.css"
   },
   {
-    "revision": "06e7896f288e6c4e91ea",
-    "url": "/tedora.info/static/js/main.06e7896f.chunk.js"
+    "revision": "f9cca95a0e10a1fc258f",
+    "url": "/tedora.info/static/js/main.f9cca95a.chunk.js"
   },
   {
-    "revision": "6e6c117b830322b89630",
-    "url": "/tedora.info/static/js/1.6e6c117b.chunk.js"
+    "revision": "0265db4743c21d48c330",
+    "url": "/tedora.info/static/js/1.0265db47.chunk.js"
   },
   {
     "revision": "5cf6c8924be309516f0c",
@@ -40,11 +40,19 @@ self.__precacheManifest = [
     "url": "/tedora.info/static/media/values_mobile.a9fb1f4c.png"
   },
   {
+    "revision": "7c9dd49f31e0199fe56da25cfad6b2e3",
+    "url": "/tedora.info/static/media/values_web.7c9dd49f.png"
+  },
+  {
+    "revision": "87e0acd97979b8894df365ce4017cb1e",
+    "url": "/tedora.info/static/media/values_desktop.87e0acd9.png"
+  },
+  {
     "revision": "089e537bf10aafffa1df0c8b4c3d104b",
     "url": "/tedora.info/static/media/404.089e537b.png"
   },
   {
-    "revision": "2f4d565b3009be94db9870ef498fed53",
+    "revision": "f8732ed4440ccc67bc0b98fa168f1b61",
     "url": "/tedora.info/index.html"
   }
 ];
