@@ -4,9 +4,9 @@ import MobileVal from '../assets/images/values_mobile.png'
 
 function Values() {
   return (
-    <div className='Values'>
-        <div className='value_title'><p>What We are Good At</p></div>
-        <div className='value v_mob'>
+    <div className='Values'  id="section1">
+        <div className='value_title'><span class="hover-underline-animation">What We are Good At !</span></div>
+        <div className='value'>
             <div className='v_left'>
                 <h2>Mobile App's</h2>
                 <p>Le Lorem Ipsum est simplement du faux 

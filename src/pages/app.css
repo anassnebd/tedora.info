@@ -1,5 +1,11 @@
-/*      ---Home---      */
+html{
+    scroll-behavior: smooth;
+}
 
+/*      ---Home---      */
+.Home{
+    scroll-behavior: smooth;
+}
 
 /*      ---NotFound 404     */
 .NotFound{

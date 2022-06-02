@@ -3,6 +3,8 @@
     src: url(../res/CIRCULARSTD-MEDIUM.OTF);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /*          --TITLE---          */
 .Title{
     padding: 70px 0;
@@ -33,24 +35,131 @@
     display: flex;
     margin: 0 auto;
     height: 320px;
+    margin-bottom: 210px;
+
 }
 .slide{
     width: 350px;
     height: 350px;
-    background-color: #3E82E5;
+    background-color: #28292F;
     margin-right: 50px;
-    padding: 10px;
+    padding: 0px;
     border-radius: 5px;
     box-shadow: 0;
     transition: box-shadow 0.5s;  
     transition: all 0.5s;
+    color: white;
+    position: relative;
 }
 .slide:hover{
     width: 370px;
     height: 370px;
     box-shadow: 2px 2px 30px #3E82E5;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 100px #000000;
+}
+.slide_web{
+    background-image: url("../assets/images/carousel_web.jpeg");
+    background-size: cover;
+    background-position:  left; 
+}
+.slide_mob{
+    background-image: url("../assets/images/carousel_mob.png");
+    background-size: cover;
+    background-position: left; 
+}
+.slide_bottom{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    bottom: 0;
+}
+.slide_bottom h1{
+    font-family: 'Circular Std';
+    color: #000000;
+    overflow: hidden;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: left;
 }
 
+.slide_bottom h1:hover{
+    animation: openclose 15s ease-in-out infinite;
+    background-color: #56657F;
+    overflow: hidden;
+    color: white;
+    text-align: left;
+}
+@keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 130px;
+    }
+    5% {
+      width: 130px;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 130px;
+    }
+    35% {
+      top: 0.2rem;
+      width: 130px;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 130px;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 130px;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 130px;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 130px;
+      text-indent: 0;
+    }
+  }
 .mere{
     width: 350px;
     height: 350px;
@@ -60,27 +169,30 @@
 .Values{
     font-family: 'Circular Std';
     color: white;
-    margin-top: 210px;
     position: static;
 }
 .value{
+    width: 70%;
     display: flex;
+    margin: 0 auto;
 }
+
 .value_title{
-    font-size: 37px;
-    font-weight:  100px;
+    font-family: 'Circular Std';
+    font-size: 27px;
+    font-weight:  bold;
     color: #3E82E5;
     margin-left: 35px;
+    margin-bottom: 30px;
 }
 .v_left{
     padding-top: 70px;
-    width: 450px;
+    width: 410px;
 }
-.v_left p {
+.Values p {
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-}
-.v_left p {
-    font-weight: lighter;
+    font-size: 18px;
 }
 .v_right{
     margin-left: 70px;
@@ -90,13 +202,35 @@
     background-color: transparent;
     border-radius: 10px;
     border: 1px solid white;
-    width: 130px;
-    height: 50px;
+    width: 150px;
+    height: 55px;
     text-align: center;
     color: white;
     cursor: pointer;
+    margin-top: 30px;
 }
 .val_plus:hover{
     background-color: white;
     color: black;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #3E82E5;
+  }
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #3E82E5;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
