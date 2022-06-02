@@ -172,11 +172,26 @@
     position: static;
 }
 .value{
-    width: 70%;
+    width: 75%;
     display: flex;
     margin: 0 auto;
+    padding-top: 110px;
 }
-
+.val_dot{
+    float: right;
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: transparent;
+    border: #3E82E5 1px solid;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 5px;
+}
+.dot:hover{
+    background-color: #3E82E5;
+}
 .value_title{
     font-family: 'Circular Std';
     font-size: 27px;
@@ -192,11 +207,18 @@
 .Values p {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 17px;
 }
 .v_right{
     margin-left: 70px;
 }
+.v_left_web{
+    flex: 7;
+}
+.v_right_web{
+    flex:4
+}
+/*More Mobile*/
 .val_plus{
     font-family: 'Circular Std';
     background-color: transparent;
@@ -210,6 +232,23 @@
     margin-top: 30px;
 }
 .val_plus:hover{
+    background-color: white;
+    color: black;
+}
+/*More Web*/
+.val_plus_web{
+    font-family: 'Circular Std';
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 150px;
+    height: 55px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.val_plus_web:hover{
     background-color: white;
     color: black;
 }
