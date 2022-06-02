@@ -8,7 +8,7 @@ function Values() {
         <div className='value_title'><p>What We are Good At</p></div>
         <div className='value v_mob'>
             <div className='v_left'>
-                <h5>Mobile App's</h5>
+                <h2>Mobile App's</h2>
                 <p>Le Lorem Ipsum est simplement du faux 
                     texte employé dans la composition et la
                     mise en page avant impression. Le Lorem
