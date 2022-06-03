@@ -8,9 +8,11 @@ function Carousel() {
           <div className='slide_bottom'>
           </div>
         </div>
+
         <div className='slide slide_mob'>
             
         </div>
+        
         <div className='slide slide_desk'>
             
         </div>
