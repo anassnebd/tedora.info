@@ -68,6 +68,11 @@
     background-size: cover;
     background-position: left; 
 }
+.slide_desk{
+  background-image: url("../assets/images/carousel_desk.png");
+  background-size: cover;
+  background-position: left; 
+}
 .slide_bottom{
     font-family: 'Roboto', sans-serif;
     color: white;

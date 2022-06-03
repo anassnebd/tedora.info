@@ -11,7 +11,7 @@ function Carousel() {
         <div className='slide slide_mob'>
             
         </div>
-        <div className='slide'>
+        <div className='slide slide_desk'>
             
         </div>
     </div>
