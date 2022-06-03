@@ -49,7 +49,6 @@
     transition: box-shadow 0.5s;  
     transition: all 0.5s;
     color: white;
-    position: relative;
 }
 .slide:hover{
     width: 370px;
@@ -88,7 +87,7 @@
     border-radius: 5px;
     text-align: left;
 }
-
+/*
 .slide_bottom h1:hover{
     animation: openclose 15s ease-in-out infinite;
     background-color: #56657F;
@@ -96,6 +95,7 @@
     color: white;
     text-align: left;
 }
+
 @keyframes openclose {
     0% {
       top: 0.2rem;
@@ -159,7 +159,7 @@
       width: 130px;
       text-indent: 0;
     }
-  }
+  }*/
 .mere{
     width: 350px;
     height: 350px;
@@ -169,7 +169,6 @@
 .Values{
     font-family: 'Circular Std';
     color: white;
-    position: static;
 }
 .value{
     width: 75%;
@@ -177,6 +176,9 @@
     margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 70px;
+}
+.v_resp{
+  display: none;
 }
 .val_dot{
     float: right;
@@ -297,4 +299,67 @@
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+/*    ---RESPONSIVE---    */
+@media only screen and (max-width:700px) {
+  .Carousel{
+    display: block;
+  }
+  .slide{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  /*Title*/
+  .Title{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: -70px;
+  }
+  .Title img{
+    width: 90%;
+  }
+  .t_btn_contact{
+    width : 50%;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  /*Carousel*/
+  .Carousel{
+    position: static;
+    margin-top: -260px;
+    margin-bottom: 690px;
+  }
+
+  /*Values*/
+  .dot{
+    width: 10px;
+    height: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  .val_dot{
+    margin-right: 20px;
+    display: flex;
+  }
+  .value{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .value img{
+    width: 100%;
+  }
+  .v_resp{
+    display: block;
+  }
+  .v_resp_web{
+    display: none;
+  }
+
 }

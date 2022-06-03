@@ -8,6 +8,9 @@
     height: 90px;
     width: auto;
 }
+.header_menu{
+    display: none;
+}
 .options{
     float: right;
     justify-content: space-around;
@@ -45,3 +48,62 @@
     color: white;
     border: 1px #3E82E5 solid;
 }
+
+/*      ---Responsive Header---     */
+@media only screen and (max-width:700px) {
+    .logo{
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+        white-space: pre;
+        float: none;
+        display: flex;
+    }
+    .logo_img{
+        width: 190px;
+        height: 25px;
+    }
+    .header_page{
+        display: block;
+    }
+    .hire_me{
+        float: right;
+        margin-left: 70%;
+        position: fixed;
+        bottom: 30px;
+    }
+    .hire_btn{
+        background-color: #3E82E5;
+        color: white;
+        border: 1px #3E82E5 solid;
+    }
+    .options{
+        display: block;
+        float: none;
+        width: 450px;
+        z-index: 2;
+        background-color: #3E82E5;
+        font-size: 22px;
+
+    }
+    .opt_header{
+        padding-left: 10px;
+    }
+    .testop{
+        margin: 0;
+        padding: 0;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    li{
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .header_menu{
+        display: block;
+        margin-left: 100px;
+    }
+
+  }
