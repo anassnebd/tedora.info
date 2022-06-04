@@ -19,3 +19,9 @@ html{
     transform: translate(-50%,-50%);
     left: 50%;
 }
+
+@media only screen and (max-width:700px){
+    .errornf{
+        width: 130%;
+    }
+}

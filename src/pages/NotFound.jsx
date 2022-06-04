@@ -5,7 +5,7 @@ import './app.css'
 function NotFound() {
   return (
     <div className='NotFound'>
-        <img src={Error404} alt="Not Found..." />
+        <img src={Error404} className="errornf" alt="Not Found..." />
     </div>
   )
 }
