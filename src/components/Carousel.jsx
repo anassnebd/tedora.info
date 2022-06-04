@@ -3,7 +3,7 @@ import './app.css'
 
 function Carousel() {
   return (
-    <div className='Carousel'>
+    <div className='Carousel' id='services1'>
         <div className='slide slide_web'>
           <div className='slide_bottom'>
           </div>
@@ -12,7 +12,7 @@ function Carousel() {
         <div className='slide slide_mob'>
             
         </div>
-        
+
         <div className='slide slide_desk'>
             
         </div>

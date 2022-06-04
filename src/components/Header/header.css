@@ -26,6 +26,23 @@
 }
 .opt_header{
    padding-left: 40px;
+   text-decoration: none;
+}
+.opt_header:active{
+    color: white;
+    text-decoration: none;
+}
+.opt_header:visited{
+    color: white;
+    text-decoration: none;
+}
+.opt_header:hover{
+    color: #3E82E5;
+    text-decoration: none;
+}
+.opt_header:link{
+    color: white;
+    text-decoration: none;
 }
 .hire_me{
     float: right;
@@ -72,11 +89,16 @@
         margin-left: 70%;
         position: fixed;
         bottom: 30px;
+        align-items: center;
     }
     .hire_btn{
         background-color: #3E82E5;
         color: white;
         border: 1px #3E82E5 solid;
+        height: 40px;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .options{
         display: block;

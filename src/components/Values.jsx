@@ -80,10 +80,10 @@ function Values() {
         {/* Mobile responsive value */}
         <div className='value v_web v_resp' id='value2'>
           <div className='v_left_web'>
-            <img src={MobileVal} width='500px'/>
+            <img src={DeskVal} width='500px'/>
           </div>
           <div className='v_right_web'>
-                <h2>Mobile App's</h2>
+                <h2>Desktop App's</h2>
                 <p>Le Lorem Ipsum est simplement du faux 
                     texte employé dans la composition et la
                     mise en page avant impression. Le Lorem
