@@ -10,6 +10,8 @@ import { FaUserCheck } from 'react-icons/fa';
 
 function Header() {
   const [show, setShow] = useState(false);
+  
+
 
   const toogleMenu = () => {
     if(show){
@@ -18,6 +20,7 @@ function Header() {
       setShow(true)
     }
   } 
+
 
   return (
     <div className='header_page'>
