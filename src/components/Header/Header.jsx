@@ -114,8 +114,8 @@ function Header({mode}) {
         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hire Me!</h2>
         <form className='modal_form' style={{display:'block'}}>
           <div style={{display:'flex',width:'100%'}}>
-            <input type="text" className='form_nom' placeholder='Nom...' />
-            <input type="text" className='form_pnom' placeholder='Prenom...' />
+            <input type="text" className='form_nom' placeholder='First name...' />
+            <input type="text" className='form_pnom' placeholder='Last name...' />
           </div>
           <input type="email" placeholder='Email...' className='form_email'/>
           <select>
