@@ -106,7 +106,7 @@ function Header({mode}) {
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
-        style={customStyles}
+        className="Modal"
         contentLabel="Example Modal"
       >
         <div className='modal_hireme'>
@@ -115,7 +115,7 @@ function Header({mode}) {
         <form className='modal_form' style={{display:'block'}}>
           <div style={{display:'flex',width:'100%'}}>
             <input type="text" className='form_nom' placeholder='First name...' />
-            <input type="text" className='form_pnom' placeholder='Last name...' />
+            <input type="text" className='form_pnom' placeholder='Last...' />
           </div>
           <input type="email" placeholder='Email...' className='form_email'/>
           <select>

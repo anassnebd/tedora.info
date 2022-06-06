@@ -147,6 +147,22 @@ select{
     background-color: transparent;
     color: gray;
 }
+.Modal{
+    background-color: red;
+    width:400px;
+    background : #F7F7F7;
+    color : #101115;
+    right: auto;
+    bottom: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding:40px;
+}
 
 /*      ---Responsive Header---     */
 @media only screen and (max-width:700px) {
@@ -211,6 +227,12 @@ select{
     }
     .test_web{
         display: none;
+    }
+    .Modal{
+        width: 70%;
+    }
+    .form_email{
+        width: 77%;
     }
 
   }
