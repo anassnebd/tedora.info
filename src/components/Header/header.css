@@ -65,6 +65,88 @@
     color: white;
     border: 1px #3E82E5 solid;
 }
+.modal_hireme{
+    font-family: 'Circular Std';
+    display: block;
+}
+.modal_form{
+    display: block;
+    width: 100%;
+    font-family: 'Circular Std';
+    color: #101115;
+}
+input{
+    font-family: 'Circular Std';
+    height: 35px;
+    margin-bottom: 25px;
+    margin-right: 9px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 55px;
+}
+select{
+    font-family: 'Circular Std';
+    height: 35px;
+    margin-bottom: 15px;
+    margin-right: 9px;
+    border: none;
+    border-radius: 4px;
+    width: 98%;
+    padding-left: 10px;
+}
+.form_email{
+    font-family: 'Circular Std';
+    width: 84%;
+    background: url('../../assets/icons/mail.png') no-repeat scroll 15px 9.5px;
+    background-color: white;
+}
+.form_nom{
+    background: url('../../assets/icons/nom.png') no-repeat scroll 15px 9.5px;
+    background-size: 15px;
+    background-color: white;
+}
+.form_pnom{
+    padding-left: 15px;
+}
+.sub_hire{
+    font-family: 'Circular Std';
+    width: 40%;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    margin-right: 10px;
+    background-color: #3E82E5;
+    color: white;
+    box-shadow: 0;
+    transition: box-shadow 0.5s;
+}
+.sub_hire:hover{
+    box-shadow: 10px 1px 15px #6596de;
+}
+.sub_clear{
+    font-family: 'Circular Std';
+    width: 30%;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
 
 /*      ---Responsive Header---     */
 @media only screen and (max-width:700px) {
