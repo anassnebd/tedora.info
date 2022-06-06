@@ -5,13 +5,29 @@ import Logo from '../../assets/images/tedora.png'
 import HireMe from '../../assets/icons/user_pin.png'
 import MenuImg from '../../assets/images/menu.png'
 import { FaUserCheck } from 'react-icons/fa';
+import { useEffect } from 'react';
 
 
 
-function Header() {
+function Header({mode}) {
   const [show, setShow] = useState(false);
+  const [pagebg, setPagebg] = useState("#101115");
+  const [textcl, setTextCl] = useState("#FFFFFF");
+  const [modeh, setModeH] = useState(mode);
   
-
+  useEffect(() => {
+    if(modeh==="light"){
+      setPagebg("#101115")
+      setTextCl("#FFFFFF")
+      document.style = 'color : #FFFFFF'
+      setModeH("dark")
+    }else{
+      setPagebg("#ACDDDE")
+      setTextCl("#101115")
+      document.style = 'color:#101115'
+      setModeH("light")
+    }
+  }, []);
 
   const toogleMenu = () => {
     if(show){

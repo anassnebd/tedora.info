@@ -12,6 +12,7 @@ import { Helmet } from "react-helmet";
 function App() {
   const [mode, setMode] = useState("dark");
   const [pagebg, setPagebg] = useState("#101115");
+  const [textcl, setTextCl] = useState("#FFFFFF");
   useEffect(() => {
     document.title = "Tedora by Nebdaoui Anass"
   }, []);
@@ -19,16 +20,20 @@ function App() {
   const changeMode = () =>{
     if(mode==="light"){
       setPagebg("#101115")
+      setTextCl("#FFFFFF")
+      document.body.style = 'color:#101115,color : #FFFFFF'
       setMode("dark")
     }else{
       setPagebg("#FFFFFF")
+      setTextCl("#101115")
+      document.body.style = 'background:white,color : #101115'
       setMode("light")
     }
     
   }
   
   return (
-    <div className="App" style={{backgroundColor:pagebg}}>
+    <div className="App" style={{backgroundColor:pagebg,color:textcl,}}>
       <Helmet>
       <meta charset="UTF-8"/>
         <meta name="description" content="Tedora"/>
@@ -42,7 +47,6 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
-      {/* <button onClick={changeMode}>LightMode</button> */}
     </div>
     
   );

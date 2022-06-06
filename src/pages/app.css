@@ -6,7 +6,17 @@ html{
 .Home{
     scroll-behavior: smooth;
 }
-
+.modes{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 0.5px white solid;
+    border-width: 3px;
+    border-style: double;
+}
 /*      ---NotFound 404     */
 .NotFound{
     display: flex;
