@@ -90,7 +90,7 @@ function Header({mode}) {
             <li><a className="opt_header">Design</a></li>
             <li><a className="opt_header" href="#services1">Services</a></li>
             <li><a className="opt_header" href="#section1">Portfolio</a></li>
-            <li><a className="opt_header">About</a></li>  
+            <li><a className="opt_header" href="#aboutme">About</a></li>  
           </ul>
         </div>:null
       }
@@ -99,7 +99,7 @@ function Header({mode}) {
             <li><a className="opt_header">Design</a></li>
             <li><a className="opt_header" href="#services1">Services</a></li>
             <li><a className="opt_header" href="#section1">Portfolio</a></li>
-            <li><a className="opt_header">About</a></li>  
+            <li><a className="opt_header" href="#aboutme">About</a></li>  
           </ul>
       </div>
       <Modal 

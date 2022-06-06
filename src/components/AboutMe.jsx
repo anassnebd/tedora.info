@@ -7,7 +7,7 @@ import Tw from '../assets/icons/Twitter.png'
 
 function AboutMe() {
   return (
-    <div className='AboutMe'>
+    <div className='AboutMe' id='aboutme'>
         <div className='about_img'>
             <img src={MeImg} className="myimg" alt="" width="250px" style={{borderRadius: "1000px",backgroundColor:'#FFF'}} />
         </div>
