@@ -6,6 +6,7 @@ import Values from '../components/Values'
 import { useState } from 'react';
 import { useEffect } from 'react'
 import BgTest from '../assets/images/bg.png'
+import AboutMe from '../components/AboutMe'
 
 
 function Home() {
@@ -21,13 +22,13 @@ function Home() {
   const changeMode = () =>{
     if(mode==="light"){
       setPagebg("#101115")
-      setTextCl("#FFFFFF")
+      //setTextCl("#FFFFFF")
       setButtonCl("#26324a")
       document.body.style = 'background:#101115,color : #FFFFFF'
       setMode("dark")
     }else{
       setPagebg("#26324a")
-      setTextCl("#101115")
+      //setTextCl("#101115")
       setButtonCl("#101115")
       document.body.style = 'background: #26324a'
       setMode("light")
@@ -41,6 +42,7 @@ function Home() {
         <Title/>
         <Carousel/>
         <Values/>
+        <AboutMe/>
         <button className='modes' style={{backgroundColor:buttonCl}} onClick={changeMode}></button>
     </div>
     
