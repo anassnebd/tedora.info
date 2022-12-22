@@ -4,6 +4,7 @@ import Logo from './assets/images/tedora.png'
 import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from './pages/NotFound';
+import HeaderUser from './components/Header-Certificate/HeaderUser'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Helmet } from "react-helmet";
@@ -44,6 +45,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home/>} />
+          <Route path="/certificate" element={<HeaderUser/>}/>
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>

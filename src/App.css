@@ -1,6 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body{
   background-color: #101115;
-  padding: 50px 150px 0 150px;
+  /* padding: 50px 150px 0 150px; */
 
   margin: 0;
 }
@@ -14,8 +17,5 @@ body{
   body{
     padding: 0;
   }
-  
 
-
-  
 }

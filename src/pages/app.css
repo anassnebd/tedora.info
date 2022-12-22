@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html{
     scroll-behavior: smooth;
 }
@@ -5,6 +9,8 @@ html{
 /*      ---Home---      */
 .Home{
     scroll-behavior: smooth;
+    padding: 50px 150px 0 150px;
+
 }
 .modes{
     background-color: red;
