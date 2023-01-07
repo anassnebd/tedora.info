@@ -49,6 +49,7 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
+      <div className='text-green-600'>EAAAAAAAAAAAA</div>
     </div>
     
   );
